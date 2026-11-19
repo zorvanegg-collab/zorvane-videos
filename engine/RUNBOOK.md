@@ -26,17 +26,17 @@ Owner: Facundo (Uruguay, Spanish). Channel: YouTube "Zorvane Daily" (GTA 6 fan p
 - Loudness ~ -14 LUFS (engine does it). Output 1080x1920, h264+aac.
 
 ## 4. Daily output: 10 new videos
-- Name them `bNN.mp4` unique per day (e.g. d20261120_01.mp4). Keep titles/descriptions in engine/state/schedule_YYYY-MM-DD.csv. Update engine/state/topics_done.md and engine/state/log.md. Commit engine/ changes to the repo (git push).
+- Name them uniquely per day (e.g. d20261120_01.mp4). Waiting videos live in the repo folder `pending/` (mp4 files, raw URL = https://raw.githubusercontent.com/zorvanegg-collab/zorvane-videos/main/pending/NAME) with their title/description in `pending/pending.csv` (columns: file,title,description). Commit and push them. If many videos are already waiting in pending/ (>20), make fewer new ones and say so. Update engine/state/topics_done.md and engine/state/log.md. Commit engine/ changes to the repo (git push).
 
 ## 5. Buffer queue (browser pane tab "seed", Claude_Browser tools; read the built-in-browser skill first)
 - Buffer free plan: max 10 queued posts. YouTube allows only a limited number of uploads per rolling 24 h; Buffer shows "Error: The daily posting limit ... reached" + "Retry Now" when YouTube refuses. So: ALWAYS keep the Buffer queue full (10) and let freed slots be filled; an hourly scheduled task retries failed posts ("Cola Zorvane...").
 - Queue URL: https://publish.buffer.com/channels/6afdb706ece6dfde5f0bdb90/schedule?tab=queue (mobile layout, viewport 800x1143). Count pending posts; for each free slot, add one post:
-  1. Push the mp4 to the repo (git add/commit/push; files must be on https://raw.githubusercontent.com/zorvanegg-collab/zorvane-videos/main/NAME).
+  1. Take the OLDEST file of `pending/` (it is already pushed). The inject URL is .../main/pending/NAME.
   2. In Buffer, click the green + (752,124 without banner; ~(752,222-236) with the "posts left" banner), open composer.
-  3. javascript_tool: `window.__inj = async (name)=>{const r=await fetch('https://raw.githubusercontent.com/zorvanegg-collab/zorvane-videos/main/'+name);const b=await r.blob();const f=new File([b],name,{type:'video/mp4'});const i=document.querySelector('input[type=file]');const dt=new DataTransfer();dt.items.add(f);i.files=dt.files;i.dispatchEvent(new Event('change',{bubbles:true}));return b.size}` then `await window.__inj('NAME')` (redefine after any page reload; composer must be open).
+  3. javascript_tool: `window.__inj = async (name)=>{const r=await fetch('https://raw.githubusercontent.com/zorvanegg-collab/zorvane-videos/main/pending/'+name);const b=await r.blob();const f=new File([b],name,{type:'video/mp4'});const i=document.querySelector('input[type=file]');const dt=new DataTransfer();dt.items.add(f);i.files=dt.files;i.dispatchEvent(new Event('change',{bubbles:true}));return b.size}` then `await window.__inj('NAME')` (redefine after any page reload; composer must be open).
   4. Click description (400,318), type description; Title field below (y~732 with 3-line description, ~762 with 4 lines; screenshot to check), type title. Schedule via dropdown (340,1096) -> "Set Date and Time" -> pick the next free time (tomorrow/today a few hours ahead is fine; Buffer tries at that time; retry task handles errors) -> Done -> Schedule.
   5. Buffer validation "max 5 YouTube posts per day" can block saving when many posts share a day: spread the posts across different days/times, or use Move to Drafts -> Drafts tab (?tab=drafts) -> Schedule Post -> confirm popover.
-- AFTER a post is scheduled/queued: delete its mp4 from the repo (git rm, commit, push) so the repo stays clean. Buffer already has its own copy.
+- AFTER a post is scheduled/queued: delete its mp4 and its row from `pending/` in the repo (git rm, commit, push) so the repo stays clean. Buffer already has its own copy.
 - Do not delete/edit posts that already exist unless they are duplicates or broken.
 
 ## 6. Reporting
