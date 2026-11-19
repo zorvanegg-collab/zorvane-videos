@@ -1,0 +1,57 @@
+{
+ "pal": "ember",
+ "topic": "GTA VI",
+ "seed": 91,
+ "bpm": 102,
+ "key": 48,
+ "mood": "minor",
+ "source": "Source: Rockstar, press reports (reported items labeled)",
+ "beats": [
+  {
+   "text": "What GTA 6 does NOT have at launch.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "NO PC VERSION",
+      "NO ONLINE",
+      "NO MICROTRANSACTIONS"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "No PC version has been announced."
+  },
+  {
+   "text": "Reportedly, GTA 6 Online is expected in 2027.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "2027",
+       "ONLINE \u00b7 REPORTED"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "And no microtransactions at launch, per coverage."
+  },
+  {
+   "text": "Price is 79.99 dollars. Worth it? Comment below.",
+   "say": "Price is seventy nine ninety nine. Worth it? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "WORTH $79.99?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

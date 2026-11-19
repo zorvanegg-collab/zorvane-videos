@@ -1,0 +1,63 @@
+{
+ "pal": "sunset",
+ "topic": "GTA VI",
+ "seed": 61,
+ "bpm": 106,
+ "key": 56,
+ "mood": "minor",
+ "source": "Source: preview coverage (reported)",
+ "beats": [
+  {
+   "text": "Stealing cars in GTA 6 is not one button anymore.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "SECURITY TIERS",
+      "KEY CLONERS"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Per previews, cars have different security levels."
+  },
+  {
+   "text": "Tools include a Slim Jim and key cloners.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "SLIM JIM",
+      "KEY CLONER",
+      "FENCES"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Owners can add GPS trackers to their cars.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "GPS TRACKERS",
+      "SCAN APP"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Which car would you steal first? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "FIRST CAR?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

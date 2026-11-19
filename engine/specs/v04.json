@@ -1,0 +1,80 @@
+{
+ "pal": "toxic",
+ "topic": "GTA VI",
+ "seed": 31,
+ "bpm": 108,
+ "key": 50,
+ "mood": "minor",
+ "source": "Source: Rockstar North's Rob Nelson (interview reports)",
+ "beats": [
+  {
+   "text": "GTA 6's map is about twice the size of GTA 5.",
+   "say": "GTA 6's map is about twice the size of GTA 5.",
+   "widget": [
+    "bignum",
+    {
+     "value": "2X",
+     "label": "GTA V MAP",
+     "sub": "PER ROCKSTAR NORTH CO-HEAD"
+    }
+   ],
+   "hit": true,
+   "hit_at": 0.9
+  },
+  {
+   "text": "And about three times Red Dead 2's.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "3X",
+       "RED DEAD 2 MAP"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Vice City alone is double Los Santos.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "2X",
+       "LOS SANTOS"
+      ],
+      [
+       "VICE CITY",
+       "BIGGEST CITY YET"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Rockstar hasn't given an official size in miles yet.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "NO OFFICIAL SQ MILES",
+      "JUST COMPARISONS"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Would you rather have bigger or denser? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "BIGGER OR DENSER?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "pal": "night",
+ "topic": "GTA VI",
+ "seed": 11,
+ "bpm": 100,
+ "key": 55,
+ "mood": "minor",
+ "source": "Source: Rockstar Games (via Kotaku, GamesRadar)",
+ "beats": [
+  {
+   "text": "GTA 6 needs up to 212 GB of space.",
+   "say": "GTA 6 needs up to two hundred twelve gigabytes of space.",
+   "widget": [
+    "bignum",
+    {
+     "value": 212,
+     "label": "GB",
+     "sub": "UP TO \u00b7 PER ROCKSTAR"
+    }
+   ],
+   "hit": true,
+   "hit_at": 0.7
+  },
+  {
+   "text": "Preloading opened on November 10.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "PRELOAD: NOV 10",
+      "UNLOCK: MIDNIGHT LOCAL"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "It unlocks at midnight in your own time zone.",
+   "say": "It unlocks at midnight, in your own time zone."
+  },
+  {
+   "text": "So tonight: delete old games and check your storage.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "DELETE OLD GAMES",
+      "CHECK STORAGE"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "How much space do you have left? Tell me below.",
+   "widget": [
+    "cta",
+    {
+     "big": "STORAGE?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

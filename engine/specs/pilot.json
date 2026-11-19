@@ -1,0 +1,11 @@
+{
+ "pal": "sunset", "topic": "GTA VI", "seed": 7, "bpm": 104, "key": 57, "mood": "minor",
+ "source": "Source: Metacritic & OpenCritic, Nov 18 2026",
+ "beats": [
+  {"text": "GTA 6 just scored a 99 on Metacritic.", "say": "GTA 6 just scored a ninety nine on Metacritic.", "widget": ["bignum", {"value": 99, "label": "METASCORE", "sub": "PS5 · 147 CRITIC REVIEWS"}], "hit": true, "hit_at": 0.6},
+  {"text": "That ties Ocarina of Time for the highest score ever.", "widget": ["bars", {"items": [["OCARINA OF TIME", 99, true], ["GTA VI", 99, true], ["GTA IV", 98, false], ["GTA V", 97, false], ["GTA III", 97, false]], "max": 100, "lo": 90}]},
+  {"text": "118 critics gave it a perfect score. The lowest? An 80.", "say": "A hundred and eighteen critics gave it a perfect score. The lowest? An eighty.", "widget": ["stats", {"items": [["118", "PERFECT SCORES"], ["80", "LOWEST SCORE"]]}], "hit": true},
+  {"text": "The complaints? 30 frames per second, and some clunky controls.", "say": "The complaints? Thirty frames per second, and some clunky controls.", "widget": ["list", {"items": ["30 FPS CAP", "CLUNKY CONTROLS"]}]},
+  {"text": "Would that stop you? Tell me in the comments.", "widget": ["cta", {"big": "YOUR TAKE?", "small": "COMMENT BELOW"}], "gap": 0.0}
+ ]
+}

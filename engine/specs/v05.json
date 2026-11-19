@@ -1,0 +1,79 @@
+{
+ "pal": "ember",
+ "topic": "GTA VI",
+ "seed": 41,
+ "bpm": 112,
+ "key": 53,
+ "mood": "minor",
+ "source": "Source: Rockstar Games Extended Look (Netflix)",
+ "beats": [
+  {
+   "text": "GTA 6 has over 600,000 NPC animations.",
+   "say": "GTA 6 has over six hundred thousand NPC animations.",
+   "widget": [
+    "bignum",
+    {
+     "value": "600K+",
+     "label": "NPC ANIMATIONS",
+     "sub": "PER ROCKSTAR"
+    }
+   ],
+   "hit": true,
+   "hit_at": 0.9
+  },
+  {
+   "text": "GTA 5 had around 55,000. Red Dead 2, around 300,000.",
+   "say": "GTA 5 had around fifty five thousand. Red Dead 2, around three hundred thousand.",
+   "widget": [
+    "bars",
+    {
+     "items": [
+      [
+       "GTA VI",
+       600,
+       true
+      ],
+      [
+       "RED DEAD 2",
+       300,
+       false
+      ],
+      [
+       "GTA V",
+       55,
+       false
+      ]
+     ],
+     "max": 600,
+     "lo": 0
+    }
+   ]
+  },
+  {
+   "text": "That means crowds that react, not copies."
+  },
+  {
+   "text": "Reviewers also praise how reactive the world feels.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "REACTIVE WORLD",
+      "DETAILED CROWDS"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "What detail will you notice first? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "FIRST DETAIL?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "pal": "toxic",
+ "topic": "GTA VI",
+ "seed": 81,
+ "bpm": 116,
+ "key": 51,
+ "mood": "minor",
+ "source": "Source: Rockstar Games",
+ "beats": [
+  {
+   "text": "GTA 6 has a 34 track original album.",
+   "say": "GTA 6 has a thirty four track original album.",
+   "widget": [
+    "bignum",
+    {
+     "value": 34,
+     "label": "ORIGINAL TRACKS",
+     "sub": "THE ALBUM \u00b7 OUT NOV 19"
+    }
+   ],
+   "hit": true,
+   "hit_at": 0.7
+  },
+  {
+   "text": "Plus six radio stations.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "6",
+       "RADIO STATIONS"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "You can even listen on foot, through your phone.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "LISTEN ON FOOT",
+      "SMARTPHONE & HEADPHONES"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "And new for GTA: podcasts.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "NEW: PODCASTS"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Which station first? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "FIRST STATION?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

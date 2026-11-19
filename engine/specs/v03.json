@@ -1,0 +1,80 @@
+{
+ "pal": "dawn",
+ "topic": "GTA VI",
+ "seed": 21,
+ "bpm": 110,
+ "key": 52,
+ "mood": "major",
+ "source": "Source: Rob Nelson (Rockstar North) to The New York Times",
+ "beats": [
+  {
+   "text": "A Rockstar boss says his playthrough took 80 hours.",
+   "say": "A Rockstar boss says his playthrough took about eighty hours.",
+   "widget": [
+    "bignum",
+    {
+     "value": 80,
+     "label": "HOURS",
+     "sub": "INCLUDING OPTIONAL OBJECTIVES"
+    }
+   ],
+   "hit": true,
+   "hit_at": 0.9
+  },
+  {
+   "text": "That's far longer than GTA 5 or Red Dead 2.",
+   "widget": [
+    "bars",
+    {
+     "items": [
+      [
+       "GTA VI (ROCKSTAR)",
+       80,
+       true
+      ],
+      [
+       "RED DEAD 2 (~50-60)",
+       55,
+       false
+      ],
+      [
+       "GTA V (~30)",
+       30,
+       false
+      ]
+     ],
+     "max": 80,
+     "lo": 0
+    }
+   ]
+  },
+  {
+   "text": "Optional objectives can change the story."
+  },
+  {
+   "text": "A leak claims the main story alone is about 50 hours. Unconfirmed.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "~50 H",
+       "MAIN STORY \u00b7 LEAK, UNCONFIRMED"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Will you rush it or take your time? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "RUSH OR SLOW?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

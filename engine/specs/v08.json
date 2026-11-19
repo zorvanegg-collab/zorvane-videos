@@ -1,0 +1,64 @@
+{
+ "pal": "dawn",
+ "topic": "GTA VI",
+ "seed": 71,
+ "bpm": 100,
+ "key": 54,
+ "mood": "major",
+ "source": "Source: Rockstar Games, The Guardian review",
+ "beats": [
+  {
+   "text": "Lucia is the first female lead in the series.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "FIRST",
+       "FEMALE LEAD"
+      ]
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Critics praise the Jason and Lucia writing.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "WRITING",
+      "PERFORMANCES"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "A stronger romance gives no bonuses.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "NO BONUSES",
+      "STORY ENDS EITHER WAY"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "It's about the story, not the perks."
+  },
+  {
+   "text": "Jason or Lucia? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "JASON OR LUCIA?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

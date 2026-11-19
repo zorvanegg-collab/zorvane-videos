@@ -1,0 +1,66 @@
+{
+ "pal": "night",
+ "topic": "GTA VI",
+ "seed": 51,
+ "bpm": 96,
+ "key": 57,
+ "mood": "minor",
+ "source": "Source: Rockstar + preview coverage (reported)",
+ "beats": [
+  {
+   "text": "GTA 6 has six wanted stars.",
+   "say": "GTA 6 has six wanted stars.",
+   "widget": [
+    "bignum",
+    {
+     "value": 6,
+     "label": "WANTED STARS",
+     "sub": "GTA V HAD FIVE"
+    }
+   ],
+   "hit": true,
+   "hit_at": 0.6
+  },
+  {
+   "text": "Police need to arrive, see you, or get an alarm.",
+   "say": "Police need to arrive, see you, or get an alarm.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "POLICE MUST ARRIVE",
+      "WITNESSES & CCTV",
+      "ALARMS CALL THEM"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Per previews, they remember your clothes and vehicle.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "YOUR OUTFIT",
+      "YOUR VEHICLE",
+      "CRIMINAL PROFILE"
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Changing outfit and car actually matters."
+  },
+  {
+   "text": "Would you survive six stars? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "SIX STARS?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}
