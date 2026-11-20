@@ -1,0 +1,68 @@
+{
+ "pal": "night",
+ "topic": "GTA VI",
+ "seed": 201,
+ "bpm": 108,
+ "key": 45,
+ "mood": "minor",
+ "source": "Source: Streams Charts via Kotaku",
+ "beats": [
+  {
+   "text": "5.8 million people watched GTA 6 live at once.",
+   "say": "Five point eight million people watched GTA 6 live at once.",
+   "widget": [
+    "bignum",
+    {
+     "value": "5.8M",
+     "label": "LIVE VIEWERS",
+     "sub": "STREAMS CHARTS, VIA KOTAKU"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Twitch led with 2.8 million viewers.",
+   "widget": [
+    "bars",
+    {
+     "items": [
+      [
+       "TWITCH",
+       2.8,
+       true
+      ],
+      [
+       "YOUTUBE",
+       1.7,
+       false
+      ],
+      [
+       "KICK",
+       1.3,
+       false
+      ]
+     ],
+     "max": 3,
+     "lo": 0
+    }
+   ]
+  },
+  {
+   "text": "YouTube had about 1.7 million. Kick, about 1.3 million."
+  },
+  {
+   "text": "That is a launch watched like a world event."
+  },
+  {
+   "text": "Did you watch or play first?",
+   "widget": [
+    "cta",
+    {
+     "big": "WATCH OR PLAY?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

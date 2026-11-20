@@ -1,0 +1,44 @@
+{
+ "pal": "toxic",
+ "topic": "GTA VI",
+ "seed": 203,
+ "bpm": 112,
+ "key": 52,
+ "mood": "minor",
+ "source": "Source: Kotaku live blog (Nov 18-19)",
+ "beats": [
+  {
+   "text": "Two things Rockstar cut from GTA 6.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "NO DISNEY WORLD",
+      "NO DARTS"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Head of production Rob Nelson told VGC they are missing because, quote, we don't have unlimited time."
+  },
+  {
+   "text": "He said removing Darts was contentious inside the team."
+  },
+  {
+   "text": "Even a huge game has to make cuts."
+  },
+  {
+   "text": "What did you want that is missing?",
+   "widget": [
+    "cta",
+    {
+     "big": "WHAT'S MISSING?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

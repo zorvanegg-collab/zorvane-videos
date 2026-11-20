@@ -1,0 +1,44 @@
+{
+ "pal": "sunset",
+ "topic": "GTA VI",
+ "seed": 204,
+ "bpm": 104,
+ "key": 48,
+ "mood": "major",
+ "source": "Source: Kotaku live blog (Nov 19)",
+ "beats": [
+  {
+   "text": "Sold out in under 90 minutes.",
+   "widget": [
+    "bignum",
+    {
+     "value": "90 MIN",
+     "label": "MIAMI HEAT x GTA MERCH",
+     "sub": "PER KOTAKU"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "The Miami Heat and GTA 6 collab gear vanished fast."
+  },
+  {
+   "text": "Jerseys were listed at 120 dollars.",
+   "say": "Jerseys were listed at one hundred twenty dollars."
+  },
+  {
+   "text": "Now they are being resold for hundreds, per Kotaku."
+  },
+  {
+   "text": "Would you pay resale prices?",
+   "widget": [
+    "cta",
+    {
+     "big": "WOULD YOU PAY?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

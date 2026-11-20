@@ -1,0 +1,45 @@
+{
+ "pal": "ember",
+ "topic": "GTA VI",
+ "seed": 210,
+ "bpm": 100,
+ "key": 44,
+ "mood": "minor",
+ "source": "Source: Kotaku live blog (Nov 18-19)",
+ "beats": [
+  {
+   "text": "Did you notice this in GTA 6?",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "PET DOGS AND CATS",
+      "FLORIDA = LEONIDA",
+      "VICE CITY = FAKE MIAMI"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "You can pet dogs and cats, per Kotaku."
+  },
+  {
+   "text": "Rockstar's Florida is called Leonida."
+  },
+  {
+   "text": "And Vice City is its fictional Miami."
+  },
+  {
+   "text": "Best detail you found?",
+   "widget": [
+    "cta",
+    {
+     "big": "BEST DETAIL?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

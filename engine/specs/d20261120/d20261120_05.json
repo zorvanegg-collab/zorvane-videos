@@ -1,0 +1,54 @@
+{
+ "pal": "ember",
+ "topic": "GTA VI",
+ "seed": 205,
+ "bpm": 110,
+ "key": 47,
+ "mood": "minor",
+ "source": "Source: KeenGamer (Nov 13)",
+ "beats": [
+  {
+   "text": "The patch before launch: how big was it?",
+   "widget": [
+    "bars",
+    {
+     "items": [
+      [
+       "XBOX 2.18 GB",
+       2.18,
+       true
+      ],
+      [
+       "PS5 1.07 GB",
+       1.07,
+       false
+      ]
+     ],
+     "max": 2.5,
+     "lo": 0
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Rockstar pushed update 1.002.000 on November 13, six days before launch."
+  },
+  {
+   "text": "It was mandatory. About 1.07 gigabytes on PS5, about 2.18 on Xbox."
+  },
+  {
+   "text": "Rockstar published no patch notes, so what it fixes is unconfirmed."
+  },
+  {
+   "text": "Did you notice any difference?",
+   "widget": [
+    "cta",
+    {
+     "big": "ANY CHANGES?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

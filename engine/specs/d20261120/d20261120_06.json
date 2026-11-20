@@ -1,0 +1,44 @@
+{
+ "pal": "night",
+ "topic": "GTA VI",
+ "seed": 206,
+ "bpm": 98,
+ "key": 43,
+ "mood": "minor",
+ "source": "Source: Kotaku live blog (Nov 19)",
+ "beats": [
+  {
+   "text": "GameStop's CEO is unhappy about GTA 6.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "ALL-DIGITAL RELEASE",
+      "GAMESTOP: LEFT OUT"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Ryan Cohen said the all-digital launch hurt GameStop."
+  },
+  {
+   "text": "GTA 6 is sold digitally, so stores lose the box sales, reported Kotaku."
+  },
+  {
+   "text": "Earlier this year he called physical games irrelevant."
+  },
+  {
+   "text": "Digital or physical?",
+   "widget": [
+    "cta",
+    {
+     "big": "DIGITAL / DISC?",
+     "small": "VOTE BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

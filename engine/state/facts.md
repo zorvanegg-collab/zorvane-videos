@@ -24,3 +24,14 @@ Last checked: 2026-11-18. Recheck anything older than 48h before posting.
 ## Rules
 - No leaks, no rumors as facts, no estimates of sales unless labelled.
 - Every fact needs a source link here before it is used in a post.
+
+## 2026-11-20 (single-outlet via Kotaku live blog, published Nov 18, updated Nov 19; labeled "per Kotaku")
+- Streams Charts: ~5.8M total live viewers (Twitch 2.8M, YouTube 1.7M, Kick 1.3M). Source: https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
+- Digital Foundry (via Kotaku): PS5 Pro best; PS5/Series X ~30fps; Series S 720p internal, low 20s dips.
+- Rob Nelson (VGC, via Kotaku): Disney World and Darts missing, "we don't have unlimited time".
+- Miami Heat x GTA merch sold out <90 min; jerseys $120 (Kotaku).
+- GameStop CEO Ryan Cohen: all-digital release hurt GameStop (Kotaku).
+- Japan version: underwear in shower scenes (Kotaku, based on tweet).
+- Phone menu makes driving harder; partner can drive. HDR fix (Kotaku writer). Pet dogs/cats; Leonida = Florida.
+- Patch 1.002.000, Nov 13: PS5 ~1.07GB, Xbox ~2.18GB, mandatory, no patch notes. Source: https://www.keengamer.com/articles/news/gta-6-update-1-002-starts-rolling-out-on-ps5-and-xbox-ahead-of-launch/
+- Not used (unverified/single tweets): egg easter egg, Bigfoot, PinkPantheress radio, Deadline $2B headline (page unreadable).

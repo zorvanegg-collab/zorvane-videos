@@ -1,0 +1,46 @@
+{
+ "pal": "dawn",
+ "topic": "GTA VI",
+ "seed": 207,
+ "bpm": 106,
+ "key": 49,
+ "mood": "major",
+ "source": "Source: Kotaku live blog (Nov 19)",
+ "beats": [
+  {
+   "text": "The Japan version of GTA 6 is different.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "JAPAN",
+       "CENSORED VERSION"
+      ]
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Per Kotaku, shower scenes show underwear in Japan."
+  },
+  {
+   "text": "The global version shows nudity there instead."
+  },
+  {
+   "text": "Regional edits are not new, but this one surprised fans."
+  },
+  {
+   "text": "Should games change by region?",
+   "widget": [
+    "cta",
+    {
+     "big": "SHOULD THEY?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

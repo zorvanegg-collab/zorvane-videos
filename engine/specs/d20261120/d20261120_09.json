@@ -1,0 +1,47 @@
+{
+ "pal": "sunset",
+ "topic": "GTA VI",
+ "seed": 209,
+ "bpm": 102,
+ "key": 46,
+ "mood": "major",
+ "source": "Source: Kotaku live blog (Nov 19)",
+ "beats": [
+  {
+   "text": "GTA 6 screenshots washed out? Try this.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "TURN HDR OFF",
+      "RESTART CONSOLE"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "A Kotaku writer got faded colors in captures."
+  },
+  {
+   "text": "On PS5: Settings, Screen and Video, Video Output, HDR off."
+  },
+  {
+   "text": "On Xbox Series S: turn off Allow HDR10, then restart."
+  },
+  {
+   "text": "Results may vary by TV. Check your display."
+  },
+  {
+   "text": "Did it fix yours?",
+   "widget": [
+    "cta",
+    {
+     "big": "DID IT WORK?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

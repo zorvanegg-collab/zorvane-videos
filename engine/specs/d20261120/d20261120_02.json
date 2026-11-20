@@ -1,0 +1,60 @@
+{
+ "pal": "dawn",
+ "topic": "GTA VI",
+ "seed": 202,
+ "bpm": 100,
+ "key": 50,
+ "mood": "minor",
+ "source": "Source: Digital Foundry, via Kotaku",
+ "beats": [
+  {
+   "text": "GTA 6 performance: which console wins?",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "PS5 PRO: BEST",
+      "PS5 / SERIES X: ~30 FPS",
+      "SERIES S: 720P"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Per Digital Foundry, the PS5 Pro runs best."
+  },
+  {
+   "text": "Base PS5 and Series X are decently stable around 30 frames per second."
+  },
+  {
+   "text": "Series S renders at 720p internally and dips into the low 20s.",
+   "widget": [
+    "stats",
+    {
+     "items": [
+      [
+       "720p",
+       "SERIES S INTERNAL"
+      ],
+      [
+       "~20",
+       "FPS IN CAR WRECKS"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Which console are you on?",
+   "widget": [
+    "cta",
+    {
+     "big": "YOUR CONSOLE?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}

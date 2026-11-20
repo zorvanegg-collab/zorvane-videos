@@ -1,0 +1,44 @@
+{
+ "pal": "toxic",
+ "topic": "GTA VI",
+ "seed": 208,
+ "bpm": 115,
+ "key": 51,
+ "mood": "minor",
+ "source": "Source: Kotaku live blog (Nov 18)",
+ "beats": [
+  {
+   "text": "Do not text and drive in GTA 6.",
+   "widget": [
+    "list",
+    {
+     "items": [
+      "PHONE MENU = HARDER DRIVING",
+      "LET YOUR PARTNER DRIVE"
+     ]
+    }
+   ],
+   "hit": true
+  },
+  {
+   "text": "Kotaku's reviewer and Jason Schreier both noted it."
+  },
+  {
+   "text": "Opening the phone makes driving controls harder."
+  },
+  {
+   "text": "The fix: let your partner take the wheel."
+  },
+  {
+   "text": "Tried it yet? Comment below.",
+   "widget": [
+    "cta",
+    {
+     "big": "TRIED IT?",
+     "small": "COMMENT BELOW"
+    }
+   ],
+   "gap": 0.0
+  }
+ ]
+}
